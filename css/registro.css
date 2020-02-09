@@ -1,0 +1,78 @@
+body{
+    background-image: url(../imagenes/audience.jpg);
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+}
+
+sec{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+form{
+    display: block;
+    margin:auto;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2.5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+
+form h2{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+#btn-ingreso{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 200px;
+    border: 2px #EFB810 solid;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    background-color: #EFB810;
+    border-radius:5px;
+    animation: 2s;
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#btn-ingreso:hover{
+    cursor: pointer;
+}
+
+form input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form select{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

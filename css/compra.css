@@ -1,0 +1,150 @@
+body{
+    background-image: url(../imagenes/audience.jpg);
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+}
+
+.compra{
+    display: block;
+    padding-top: 70px;
+}
+
+.escenario{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    float:left;
+    /*border: solid 2px red;*/
+}
+
+#img-escenario{
+    display: block;
+    margin:auto;
+    width: 80%;
+    /*border: solid 2px green;*/
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.22);
+}
+
+#img-escenario img{
+    display: block;
+    width: 100%;
+}
+
+#precios{
+    display: block;
+    width: 80%;
+    /*border: solid 2px pink;*/
+    margin: auto;
+    color:white;
+    font-weight: 500;
+}
+
+#precios ul{
+    display: block;
+    width: 33.3%;
+    /*border: solid 2px darkblue;*/
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#precios ul il{
+    display: block;
+    margin-bottom: 8px;
+}
+
+#precios ul il img{
+    margin-right: 8px;
+}
+     
+
+
+.form-compra{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+    float:left;
+    /*border: solid 2px red;*/
+    color: white;
+}
+
+form{
+    display: block;
+    margin:auto;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2.5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 7%;
+}
+
+
+#btn-compra, #btn-reserva{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 200px;
+    border: 2px #EFB810 solid;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    background-color: #EFB810;
+    border-radius:5px;
+    animation: 2s;
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#btn-compra:hover, #btn-reserva:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px white;
+}
+
+form input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form select{
+    width: 30%;
+    margin-left: 10%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form p{
+    margin-left: 10%;
+    margin-bottom: 8px;
+}
+
+#acomodar-btn{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 35px;
+}
+
+#btn-compra{
+    margin:0;
+    float:right;
+}
+#btn-reserva{
+    margin:0;
+    float: left;
+}
+
+

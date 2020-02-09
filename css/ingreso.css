@@ -1,0 +1,70 @@
+body{
+    background-image: url("../imagenes/audience.jpg");
+}
+
+.ingreso{
+    display: block;
+    width: 100%;
+    float: left;
+    height: 85vh;
+    background-image: url("imagenes/concert.png");
+    box-sizing: border-box;
+}
+
+.ingreso a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    background: #EFB810;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.ingreso a:hover{
+    transition: 0.4s;
+    letter-spacing: 1.1px;
+    border-radius:0px;
+    background-color: #EFB810;
+    border: #EFB810 0.5px solid;
+}
+
+.ingreizq{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    /*border: solid green 2px;*/
+    float: left;
+    padding-top: 10%;
+    padding-left: 15%;
+    box-sizing: border-box;
+}
+
+.ingreder{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    /*border: solid red 2px;*/
+    float: left;
+    padding-top: 10%;
+    padding-right: 15%;
+    box-sizing: border-box;
+}
+
+.laimg{
+    display: block;
+    margin:auto;
+    width: 50%;
+    float:none;
+    /*border: solid 2px green;*/
+}
+
+.laimg img{
+    width: 100%;
+}

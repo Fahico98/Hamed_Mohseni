@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Boletas</title>
+    <link rel="icon" href="imagenes/ticket.png">
+    <link rel="stylesheet" media="all" type="text/css" href="css/general.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/registro.css">
+    <!-- link rel="stylesheet" media="all" type="text/css" href="css/banner.css" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="imagenes/ticket.png"></div>
+        <div class="menu">
+            <ul><a  href="index.html">inicio</a></ul>
+            <ul><a>conciertos</a></ul>
+            <ul><a>contactenos</a></ul>
+            <ul><a href="regis.html">registrate</a></ul>
+            <ul><a href="ingreso.html">ingreso</a></ul>
+        </div>
+    </header>
+    
+     <sec>
+        <form id="frmRegistro" method="POST">
+            <input type="text" placeholder="Nombre Completo" name="Nom_Com" id="nombre">
+            <input type="email" placeholder="Correo" name="Correo" id="correo">
+            <input type="text" placeholder="Contraseña" name="contraseña" id="contrasegnia">
+            <input type="number" placeholder="Cedula" name="cedula" id="cedula">
+            <input type="text" placeholder="Celular" name="celular" id="celular">
+            <input type="date" placeholder="Fecha de Nacimiento" name="fecha_Nac" id="fechaNacimiento">
+            <p style="color:white; margin-left:10%;">Género</p>
+            <select name="Genero" id="genero">
+                <option value="M">Hombre</option>
+                <option value="F">Mujer</option>
+                <option value="O">Otro</option>
+            </select>
+            <input type="text" placeholder="Eps" name="eps" id="eps">
+            <input type="submit" name="ingresar" value="INGRESAR" id="btn-ingreso">
+        </form>
+    </sec>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/registro.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+body{
+    background-image: url(../imagenes/audience.jpg);
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+    color: white;
+}
+
+.cambio-precios{
+    display: block;
+    padding-top: 70px;
+}
+
+
+h2{
+    display: block;
+    margin: auto;
+    width: 30%;
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.escenario{
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /*border: solid 2px red;*/
+    margin: auto;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+#img-escenario{
+    display: block;
+    margin:auto;
+    width: 60%;
+    /*border: solid 2px green;*/
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.22);
+    float: left;
+    margin-left: 6.6%;
+}
+
+#img-escenario img{
+    display: block;
+    width: 100%;
+}
+
+#precios{
+    display: block;
+    width: 20%;
+    /*border: solid 2px pink;*/
+    margin: auto;
+    color:white;
+    font-weight: 500;
+    float: left;
+    margin-left: 6.6%;
+    margin-top: 5%;
+}
+
+#precios ul{
+    display: block;
+    width: 100%;
+    /*border: solid 2px darkblue;*/
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#precios ul il{
+    display: block;
+    margin-bottom: 8px;
+}
+
+#precios ul il img{
+    margin-right: 8px;
+}
+
+.form-cambioPrecio, .ingre-concert, .form-agregar-vip, .form-agregarConcert, .form-datos-concierto, .form-agregarArtista{
+    box-sizing: border-box;
+    /*border: solid 2px red;*/
+    color: white;
+    display: block;
+    margin:auto;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.35);
+    padding: 2.5%;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+.ingre-concert, .form-agregar-vip, .form-agregarConcert, .form-datos-concierto, .form-agregarArtista{
+    display: block;
+    padding-bottom: 50px;
+}
+
+.ingre-concert input, .form-agregar-vip input, .form-agregarConcert input{
+    float:left;
+    margin:0;
+    margin-left: 10%;
+}
+
+.form-datos-concierto{
+    border-top: rgba(0, 0, 0, 0.30) 2px solid;
+    border-bottom: rgba(0, 0, 0, 0.30) 2px solid;
+}
+
+.form-datos-concierto input{
+    margin: 0;
+    margin-left: 10%;
+    margin-bottom: 12px;
+}
+
+#btn-confirmar, #btn-selecConcert, #btn-agregarVip, #btn-agregarConcert, #btn-Agre-NewConcert, #btn-agregarArtist{
+    color: white;
+    display: block;
+    width: 200px;
+    border: 2px #EFB810 solid;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    background-color: #EFB810;
+    border-radius:5px;
+    animation: 2s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#btn-selecConcert, #btn-agregarVip, #btn-agregarConcert{
+    margin-left: 20px;
+}
+
+#btn-confirmar, #btn-Agre-NewConcert, #btn-agregarArtist{
+    margin-top: 20px;
+}
+
+#btn-confirmar:hover, #btn-selecConcert:hover, #btn-agregarVip:hover, #btn-agregarConcert:hover, #btn-Agre-NewConcert:hover, #btn-agregarArtist:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px white;
+}
+
+form input{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form select{
+    width: 30%;
+    margin-left: 10%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form p{
+    margin-left: 10%;
+    margin-bottom: 8px;
+}
+
+.agregar-vip, .agregar-concierto {
+    display: block;
+    margin:auto;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.35);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.agregar-vip h2, .agregar-concierto h2{
+    width: 50%;
+}
+
+#estilo-direc{
+    display: block;
+    height: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-sizing: border-box;
+}
+
+#estilo-direc input, #estilo-direc select, #estilo-direc p{
+    width: 50px;
+    display: block;
+    float:left;
+    margin: 0;
+    margin-left: 5px;
+}
+#estilo-direc p{
+    width: 20px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
